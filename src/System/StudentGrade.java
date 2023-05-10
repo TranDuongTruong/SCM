@@ -7,5 +7,7 @@ public class StudentGrade {
     private int englishGrade;
     private int physicsGrade;
     
+    private int mediumGrade;
+    
     //add constructor, get, set , input and print score information,
 }

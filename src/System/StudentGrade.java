@@ -3,24 +3,24 @@ package System;
 //with specific subjects such as math, Literature, English, Physics.
 public class StudentGrade {
 	
-	private static int mathGrade;
-	private static int literatureGrade;
-    private static int englishGrade;
-    private static int physicsGrade;
-    private static int mediumGrade;
+	private float  mathGrade;
+	private float  literatureGrade;
+    private float  englishGrade;
+    private float  physicsGrade;
+    private float  mediumGrade;
     
     
-	public static int getMediumGrade() {
-		System.out.println("\n The average score of your subjects is " + mediumGrade );
+	public float  getMediumGrade() {
+		mediumGrade=mathGrade+literatureGrade+englishGrade+physicsGrade)/4;
 		return mediumGrade;
 	}
 
-	public static void setMediumGrade(int mediumGrade) {
+	public void setMediumGrade(int mediumGrade) {
 		StudentGrade.mediumGrade = mediumGrade;
 	}
 
-	public int getMathGrade() {
-		System.out.println("  Your math score is " + mathGrade );
+	public float  getMathGrade() {
+		
 		return mathGrade;
 	}
 
@@ -28,8 +28,8 @@ public class StudentGrade {
 		this.mathGrade = mathGrade;
 	}
 
-	public int getLiteratureGrade() {
-		System.out.println("\n Your score in literature is " + literatureGrade );
+	public float  getLiteratureGrade() {
+		
 		return literatureGrade;
 	}
 
@@ -37,8 +37,8 @@ public class StudentGrade {
 		this.literatureGrade = literatureGrade;
 	}
 
-	public int getEnglishGrade() {
-		System.out.println("\n Your score in English is " + englishGrade );
+	public float  getEnglishGrade() {
+		
 		return englishGrade;
 	}
 
@@ -46,8 +46,8 @@ public class StudentGrade {
 		this.englishGrade = englishGrade;
 	}
 
-	public int getPhysicsGrade() {
-		System.out.println("\n Your score in physics is " + physicsGrade );
+	public float  getPhysicsGrade() {
+		
 		return physicsGrade;
 	}
 

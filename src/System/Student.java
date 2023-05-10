@@ -1,7 +1,7 @@
 package System;
 import java.util.Scanner;
 //this class contains information of a student including student ID, name, score, address, phone number, email,.
-public class Student {
+public class Student extends StudentGrade{
 	private String name;
     private int age;
     private String studentId;

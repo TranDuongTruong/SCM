@@ -16,7 +16,7 @@ public class StudentGrade {
 	}
 
 	public void setMediumGrade(int mediumGrade) {
-		StudentGrade.mediumGrade = mediumGrade;
+		this.mediumGrade = mediumGrade;
 	}
 
 	public float  getMathGrade() {
